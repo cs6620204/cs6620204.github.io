@@ -1,0 +1,47 @@
+body{
+    background-color: #00072D;
+    margin: 0px;
+}
+nav ul{
+    background-color: #1A43BF;
+    display: flex;
+    list-style-type: none;
+    
+}
+nav ul li{
+    position: relative;
+    padding: 12px 10px;
+    font-size: larger;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li ul{
+    position: absolute;
+    font-size: medium;
+    display: none;
+    padding-left: 0px;
+    background-color: rgba(107, 141, 170, 0.432);
+    
+}
+nav ul li ul li{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+nav ul li:hover ul{
+    display: block;
+    left: 0px;
+    top: 100%;
+}
+
+nav ul li:hover {
+    background-color: #0A2472;
+}
+h3{
+    background-color: black;
+    color: white;
+    padding: 15px 14px;
+}
